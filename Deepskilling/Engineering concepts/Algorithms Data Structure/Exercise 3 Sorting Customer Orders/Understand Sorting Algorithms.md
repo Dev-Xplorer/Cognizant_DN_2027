@@ -1,0 +1,7 @@
+## Understand Sorting Algorithms
+To understand why certain sorting algorithms are preferred in production, we look at how they manipulate elements in memory:
+
+* Bubble Sort ($O(N^2)$): A simple, brute-force algorithm. It repeatedly steps through the list, compares adjacent items, and swaps them if they are in the wrong order. This "bubbling" action continues until the list is sorted. It is highly inefficient for large datasets.
+* Insertion Sort ($O(N^2)$): Works the way you might sort playing cards in your hands. It takes one element at a time from the unsorted portion and inserts it into its correct position within the already sorted portion. It is fast for tiny or nearly-sorted datasets.
+* Merge Sort ($O(N \log N)$): A stable, divide-and-conquer algorithm. It recursively splits the array in half until each sub-array has one element, then merges those sub-arrays back together in sorted order. While fast, it requires extra auxiliary memory ($O(N)$ space) to hold the split arrays.
+* Quick Sort ($O(N \log N)$): Another divide-and-conquer algorithm. It selects a "pivot" element from the array and partitions the other elements into two sub-arrays: those less than the pivot and those greater than the pivot. It then recursively sorts the sub-arrays. It sorts in-place, meaning it requires no extra memory.
