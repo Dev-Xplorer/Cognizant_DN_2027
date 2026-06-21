@@ -1,0 +1,4 @@
+### Understand Search Algorithms
+* Linear Search: This is a sequential search method. It starts at the first element of a data structure and checks every single item one-by-one until it either finds the target or reaches the end. It does not require the data to be in any specific order.
+
+* Binary Search: This is a divide-and-conquer algorithm that strictly requires sorted data. It compares the target value to the middle element of the array. If they are unequal, the half in which the target cannot lie is eliminated, and the search continues on the remaining half. This repeatedly halves the search space until the item is found.
