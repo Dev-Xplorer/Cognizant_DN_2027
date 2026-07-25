@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 30%;
+  padding: 30px;
+}
+
+.box-left {
+  border-left: 2px solid green;
+}
+
+.box-right {
+  border-right: 2px solid green;
+}
